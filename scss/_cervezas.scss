@@ -1,0 +1,64 @@
+main{
+    div{
+        padding-top: 30px;
+    }
+    .col{
+        display: grid;
+        justify-content: center;
+    }
+    #quilmes{
+        width: 112px;
+        margin: auto;
+    }
+    #quilmes1{
+        width: 73%;
+        margin: auto;
+    }
+    #quilmes3{
+        width: 56px;
+        margin: auto;
+    }
+    #andes1{
+        width: 239px;
+        margin: auto;
+    }
+    #andes2{
+        width: 115px;
+        margin: auto;
+    }
+    #corona{
+        width: 264px;
+        margin: auto;
+    }
+    #patagonia3{
+        width: 140px;
+        margin: auto;
+    }
+    #textc{
+        text-align: center;
+    }
+    #textc1{
+        @extend #textc;
+    }
+    #textc2{
+        @extend #textc;
+    }
+    #textc3{
+        @extend #textc;
+    }
+    #textc4{
+        @extend #textc;
+    }
+    #textc5{
+        @extend #textc;
+    }
+    #textc6{
+        @extend #textc;
+    }
+    #textc7{
+        @extend #textc;
+    }
+    #textc8{
+        @extend #textc;
+    }
+}

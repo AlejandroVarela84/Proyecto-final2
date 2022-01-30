@@ -1,0 +1,278 @@
+main .titulo1 {
+  padding-top: 35px;
+  font-size: 60px;
+  font-family: 'Merriweather', serif;
+  color: blanchedalmond;
+  text-align: center; }
+
+main .nosotros1 {
+  display: grid;
+  justify-content: center; }
+
+main .Nosotros-2 {
+  height: 600px;
+  padding-top: 30px;
+  margin: auto; }
+
+main .nosotrosp {
+  padding-top: 50px; }
+
+main .nosotros {
+  color: blanchedalmond;
+  font-size: 23px;
+  font-family: 'Merriweather', serif;
+  text-align: justify; }
+
+@media screen and (max-width: 990px) {
+  main .titulo1 {
+    font-size: 33px;
+    padding-top: 0; }
+  main .nosotros1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  main .Nosotros-2 {
+    width: 100%;
+    height: inherit; }
+  main .nosotros {
+    font-size: 20px; } }
+
+main .mapa1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
+@media screen and (max-width: 990px) {
+  main .mapa {
+    height: inherit;
+    width: 100%; } }
+
+main div {
+  padding-top: 30px; }
+
+main .col {
+  display: grid;
+  justify-content: center; }
+
+main #quilmes {
+  width: 112px;
+  margin: auto; }
+
+main #quilmes1 {
+  width: 73%;
+  margin: auto; }
+
+main #quilmes3 {
+  width: 56px;
+  margin: auto; }
+
+main #andes1 {
+  width: 239px;
+  margin: auto; }
+
+main #andes2 {
+  width: 115px;
+  margin: auto; }
+
+main #corona {
+  width: 264px;
+  margin: auto; }
+
+main #patagonia3 {
+  width: 140px;
+  margin: auto; }
+
+main #textc, main #textc1, main #textc2, main #textc3, main #textc4, main #textc5, main #textc6, main #textc7, main #textc8 {
+  text-align: center; }
+
+main #rutinic {
+  width: 186px;
+  margin: auto; }
+
+main #rutinim {
+  width: 107px;
+  margin: auto; }
+
+main #trumpeterm {
+  width: 210px;
+  margin: auto; }
+
+main #corderom {
+  width: 209px;
+  margin: auto; }
+
+main #mosquita {
+  width: 225px;
+  margin: auto; }
+
+main #luigi {
+  width: 170px;
+  margin: auto; }
+
+main #rutinich {
+  width: 138px;
+  margin: auto; }
+
+main #nortonc {
+  width: 202px;
+  margin: auto; }
+
+main #santaj {
+  width: 219px;
+  margin: auto; }
+
+main #gint {
+  width: 186px;
+  margin: auto; }
+
+main #textv, main #textv1, main #textv2, main #textv3, main #textv4, main #textv5, main #textv6, main #textv7, main #textv8 {
+  text-align: center; }
+
+main #ballent {
+  width: 210px;
+  margin: auto; }
+
+main #johnnyeb {
+  width: 120px;
+  margin: auto; }
+
+main #johnnieg {
+  width: 240px;
+  margin: auto; }
+
+main #absolut {
+  width: 242px;
+  margin: auto; }
+
+main #skyy {
+  width: 242px;
+  margin: auto; }
+
+main #merleg {
+  width: 211px;
+  margin: auto; }
+
+main #jagerm {
+  width: 141px;
+  margin: auto; }
+
+main #baileys {
+  width: 187px;
+  margin: auto; }
+
+main #texto, main #texto1, main #texto2, main #texto3, main #texto4, main #texto5, main #texto6, main #texto7, main #texto8 {
+  text-align: center; }
+
+main .local {
+  display: grid;
+  grid-template-areas: " a b ";
+  grid-column-gap: 27px;
+  grid-row-gap: 35px; }
+
+main .desc1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+main .parrafo {
+  font-size: xx-large;
+  color: blanchedalmond;
+  display: grid;
+  align-content: space-around;
+  font-family: 'Merriweather', serif;
+  text-align: justify; }
+
+main .desc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+@media screen and (max-width: 1333px) {
+  main .parrafo {
+    font-size: 23px; } }
+
+@media screen and (max-width: 990px) {
+  main .local {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  main .parrafo {
+    font-size: 20px; }
+  main .desc2 {
+    order: 4; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: black; }
+  header .logo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  header nav {
+    background-image: linear-gradient(to top, black, black); }
+  header #menu, header #menu1, header #menu2, header #menu3, header #menu4 {
+    color: blanchedalmond;
+    font-size: 22px; }
+  header #submenu {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 22px; }
+  header #menu5, header #menu6, header #menu7 {
+    transition: 0.5s;
+    color: blanchedalmond; }
+  header #menu5:hover, header #menu6:hover, header #menu7:hover {
+    color: black;
+    transition: 0.5s; }
+
+main {
+  background-color: black;
+  padding: 45px; }
+  main h2 {
+    padding-top: 35px;
+    display: grid;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    color: #cf2626;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: color;
+    animation-iteration-count: infinite; }
+
+@keyframes color {
+  0% {
+    color: #ffee00; }
+  100% {
+    color: #cf2626; } }
+
+footer {
+  background-color: black;
+  padding: 45px; }
+  footer p {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Merriweather', serif;
+    font-size: large; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  footer img {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    transition: 0.5s; }
+  footer img:hover {
+    transform: scale(1.5); }
+
+@media screen and (max-width: 990px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  main .logo {
+    height: 210px; }
+  main h2 {
+    font-size: 30px; } }

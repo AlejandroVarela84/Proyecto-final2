@@ -1,0 +1,69 @@
+main{
+    #rutinic{
+        width:186px;
+        margin: auto;
+    }
+    #rutinim{
+        width: 107px;
+        margin: auto;
+    }
+    #trumpeterm{
+        width: 210px;
+        margin: auto;
+    }
+    #corderom{
+        width: 209px;
+        margin: auto;
+    }
+    #mosquita{
+        width: 225px;
+        margin: auto;
+    }
+    #luigi{
+        width: 170px;
+        margin: auto;
+    }
+    #rutinich{
+        width: 138px;
+        margin: auto;
+    }
+    #nortonc{
+        width: 202px;
+        margin: auto;
+    }
+    #santaj{
+        width: 219px;
+        margin: auto;
+    }
+    #gint{
+        width: 186px;
+        margin: auto;
+    }
+    #textv{
+        text-align: center;
+    }
+    #textv1{
+        @extend #textv;
+    }
+    #textv2{
+        @extend #textv;
+    }
+    #textv3{
+        @extend #textv;
+    }
+    #textv4{
+        @extend #textv;
+    }
+    #textv5{
+        @extend #textv;
+    }
+    #textv6{
+        @extend #textv;
+    }
+    #textv7{
+        @extend #textv;
+    }
+    #textv8{
+        @extend #textv;
+    }
+}

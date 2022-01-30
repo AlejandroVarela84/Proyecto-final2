@@ -1,0 +1,61 @@
+main{
+    #ballent{
+        width: 210px;
+        margin: auto;
+    }
+    #johnnyeb{
+        width: 120px;
+        margin: auto;
+    }
+    #johnnieg{
+        width: 240px;
+        margin: auto;
+    }
+    #absolut{
+        width: 242px;
+        margin: auto;
+    }
+    #skyy{
+        width: 242px;
+        margin: auto;
+    }
+    #merleg{
+        width: 211px;
+        margin: auto;
+    }
+    #jagerm{
+        width: 141px;
+        margin: auto;
+    }
+    #baileys{
+        width: 187px;
+        margin: auto;
+    }
+    #texto{
+        text-align: center;
+    }
+    #texto1{
+        @extend #texto;
+    }
+    #texto2{
+        @extend #texto;
+    }
+    #texto3{
+        @extend #texto;
+    }
+    #texto4{
+        @extend #texto;
+    }
+    #texto5{
+        @extend #texto;
+    }
+    #texto6{
+        @extend #texto;
+    }
+    #texto7{
+        @extend #texto;
+    }
+    #texto8{
+        @extend #texto;
+    }
+}

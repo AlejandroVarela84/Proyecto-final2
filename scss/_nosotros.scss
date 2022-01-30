@@ -1,0 +1,49 @@
+main{
+    .titulo1{
+    padding-top: 35px;
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    color: blanchedalmond;
+    text-align: center;
+    }
+    .nosotros1{
+        display:grid;
+        justify-content: center;
+    }
+    .Nosotros-2{
+        height: 600px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    .nosotrosp{
+        padding-top:50px ;
+
+    }
+    .nosotros{
+        color: blanchedalmond;
+        font-size: 23px;
+        font-family: 'Merriweather', serif;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 990px) {
+
+    main{
+        .titulo1{
+            font-size: 33px;
+            padding-top: 0;
+        }
+        .nosotros1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .Nosotros-2{
+            width: 100%;
+            height: inherit;
+        }
+        .nosotros{
+            font-size: 20px ;
+    }
+}
+}
